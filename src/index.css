@@ -2,7 +2,7 @@
 
 @import "tailwindcss";
 
-@custum-variant dark (&:where(.dark, .dark *))
+/* @custum-variant dark (&:where(.dark, .dark *)); */
 
 *{
   font-family: "Manrope", sans-serif;
