@@ -3,7 +3,7 @@ import assets from '../assets/assets';
 
 const Navbar = () => {
   const [sideBarOpen, setSideBarOpen] = useState(false);
-  const theme = 'light'; // temporary fix for dark/light mode
+  const theme = 'light';
 
   return (
     <div className="flex justify-between items-center px-4 sm:px-12 lg:px-24 xl:px-40 py-5 sticky top-0 z-20 backdrop-blur-xl font-medium bg-white/50 dark:bg-gray-900/70">

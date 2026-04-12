@@ -1,4 +1,4 @@
-import React from 'react'
+
 import assets from '../assets/assets'
 
 const Hero = () => {
@@ -12,7 +12,7 @@ const Hero = () => {
             <p className='text-xs font-medium'>Trusted by 10k+ people</p>
         </div>
 
-        <h1 className='text-4xl sm:text-5xl md:text-6xl xl:text-[84px] font-medium xl:leading-[95px] max-w-5xl'> Turning Imagination into <span className='bg-gradient-to-r from-[#5044E5] to-[#4d8cea] bg-clip-text text-transparent'>digital</span> impact
+        <h1 className='text-4xl sm:text-5xl md:text-6xl xl:text-[84px] font-medium xl:leading-snug max-w-5xl'> Turning Imagination into <span className='bg-linear-to-r from-[#5044E5] to-[#4d8cea] bg-clip-text text-transparent'>digital</span> impact
         </h1>
 
         <p className='text-sm sm:text-lg font-medium text-gray-500 max-w-[80%] sm:max-w-lg pb-3'>

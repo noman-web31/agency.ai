@@ -7,7 +7,7 @@ const ServiceCard = ({ service, index }) => {
   return (
     <div className='relative overflow-hidden max-w-lg m-2 sm:m-4 rounded-xl border border-gray-200 shadow-2xl shadow-gray-100 '>
 
-      <div className='pointer-events-none blur-2xl rounded-full bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500 w-[300px] h-[300px] absolute z-0 transition-opacity duration-500 mix-blend-lighten opacity-70'
+      <div className='pointer-events-none blur-2xl rounded-full bg-linear-to-r from-blue-500 via-indigo-500 to-purple-500 w-72 h-72 absolute z-0 transition-opacity duration-500 mix-blend-lighten opacity-70'
         style={{ top: position.y - 150, left: position.x - 150 }} >
 
       </div>
